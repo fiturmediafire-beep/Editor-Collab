@@ -12,7 +12,7 @@
   "developer": "alk",
   "description": "Live multiplayer editor collaboration tool",
   "resources": {},
-  "tags": ["paid", "online", "editor", "content", "enhancement", "utility"],
+  "tags": ["online", "editor", "content", "enhancement", "utility"],
   "dependencies": {
     "geode.node-ids": {
       "version": ">=1.11.0",
