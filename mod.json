@@ -1,0 +1,34 @@
+{
+  "geode": "5.10.1",
+  "gd": {
+    "win": "2.2081",
+    "android": "2.2081",
+    "mac": "2.2081",
+    "ios": "2.2081"
+  },
+  "version": "0.3.17-alpha",
+  "id": "alk.editor-collab",
+  "name": "Editor Collab",
+  "developer": "alk",
+  "description": "Live multiplayer editor collaboration tool",
+  "resources": {},
+  "tags": ["paid", "online", "editor", "content", "enhancement", "utility"],
+  "dependencies": {
+    "geode.node-ids": {
+      "version": ">=1.11.0",
+      "required": true
+    },
+    "alk.editor-collab-ui": {
+      "version": ">=0.3.3-alpha",
+      "required": true
+    }
+  },
+  "settings": {
+    "enable-crash-recovery": {
+      "type": "bool",
+      "name": "Enable crash recovery",
+      "description": "Enable crash recovery, which will save the last action index to a file and try to recover from it on next load. Only use when absolutely necessary, as it can cause issues with the action queue.",
+      "default": false
+    }
+  }
+}
